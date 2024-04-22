@@ -93,6 +93,10 @@ function verMenu() {
         { plato: "Mousse de chocolate", precio: 790 }
       ];
       break;
+      default:
+    // Si el día no coincide con ninguno de los días del menú, muestra un mensaje de error
+    alert("Lo sentimos, el dia seleccionado no existe.");
+    return;
   }
   
   // Mostrar menú y calcular precio total
