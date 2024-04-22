@@ -18,7 +18,7 @@ function reservar() {
   } while (numPersonas > MAX_PERSONAS_RESERVA);
 
   let dia = prompt("Ingrese el día de la reserva:");
-  let hora = prompt("Ingrese la hora de la reserva:");
+  let hora = parseInt(prompt("Ingrese la hora de la reserva:"));
   
   // Guardar reserva
   reservas.push({ nombre, numPersonas, dia, hora });
