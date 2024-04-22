@@ -46,51 +46,51 @@ function verMenu() {
   switch (diaMenu) {
     case "lunes":
       menu = [
-        { plato: "Sopa de verduras", precio: 5 },
-        { plato: "Pollo al horno con puré de papas", precio: 10 },
-        { plato: "Flan casero", precio: 4 }
+        { plato: "Sopa de verduras", precio: 3500 },
+        { plato: "Pollo al horno con puré de papas", precio: 10000 },
+        { plato: "Flan casero", precio: 1700 }
       ];
       break;
     case "martes":
       menu = [
-        { plato: "Ensalada mixta", precio: 7 },
-        { plato: "Pastel de carne con ensalada", precio: 12 },
-        { plato: "Frutas frescas", precio: 6 }
+        { plato: "Ensalada mixta", precio: 2700 },
+        { plato: "Pastel de carne con ensalada", precio: 6200 },
+        { plato: "Frutas frescas", precio: 600 }
       ];
       break;
     case "miércoles":
       menu = [
-        { plato: "Empanadas de carne", precio: 8 },
-        { plato: "Pescado a la parrilla con arroz", precio: 14 },
-        { plato: "Helado de vainilla", precio: 5 }
+        { plato: "Empanadas de carne", precio: 800 },
+        { plato: "Pescado a la parrilla con arroz", precio: 7480 },
+        { plato: "Helado de vainilla", precio: 500 }
       ];
       break;
     case "jueves":
       menu = [
-        { plato: "Bruschettas de tomate", precio: 6 },
-        { plato: "Lasaña de vegetales", precio: 13 },
-        { plato: "Tiramisú", precio: 7 }
+        { plato: "Bruschettas de tomate", precio: 1600 },
+        { plato: "Lasaña de vegetales", precio: 8130 },
+        { plato: "Tiramisú", precio: 2100 }
       ];
       break;
     case "viernes":
       menu = [
-        { plato: "Croquetas de jamón", precio: 8 },
-        { plato: "Paella mixta", precio: 15 },
-        { plato: "Crema catalana", precio: 6 }
+        { plato: "Croquetas de jamón", precio: 890 },
+        { plato: "Paella mixta", precio: 9250 },
+        { plato: "Crema catalana", precio: 1600 }
       ];
       break;
     case "sábado":
       menu = [
-        { plato: "Carpaccio de res", precio: 9 },
-        { plato: "Parrillada argentina", precio: 18 },
-        { plato: "Cheesecake de frutos rojos", precio: 8 }
+        { plato: "Carpaccio de res", precio: 950 },
+        { plato: "Parrillada argentina", precio: 10500 },
+        { plato: "Cheesecake de frutos rojos", precio: 1800 }
       ];
       break;
     case "domingo":
       menu = [
-        { plato: "Ceviche de camarones", precio: 10 },
-        { plato: "Asado criollo con papas", precio: 20 },
-        { plato: "Mousse de chocolate", precio: 7 }
+        { plato: "Ceviche de camarones", precio: 1900 },
+        { plato: "Asado criollo con papas", precio: 9200 },
+        { plato: "Mousse de chocolate", precio: 790 }
       ];
       break;
   }
