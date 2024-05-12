@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nenina Tiki Bar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>NENINA TIKI BAR</h1>
-    <h2>Bienvenidos a nuestro servicio de compra y reserva online </h2>
-
-    
-
-<script src="main.js"></script>
-
+    <header>
+        <h1>Nenina Tiki Bar - Encargar Comida</h1>
+    </header>
+    <main>
+        <form id="orderForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+            
+            <label for="menu">Selecciona tu plato:</label>
+            <select id="menu">
+                <option value="hamburguesa">Hamburguesa - $10</option>
+                <option value="pizza">Pizza - $12</option>
+                <option value="ensalada">Ensalada - $8</option>
+            </select><br><br>
+            
+            <label for="drink">¿Deseas agregar una bebida?</label>
+            <input type="checkbox" id="drink"><br><br>
+            
+            <button type="button" onclick="addOrder()">Agregar al Pedido</button><br><br>
+            
+            <h2>Pedido:</h2>
+            <ul id="orderList"></ul><br><br>
+            
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
 
