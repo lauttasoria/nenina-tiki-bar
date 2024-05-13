@@ -20,12 +20,15 @@
             
             <label for="menu">Selecciona tu plato:</label>
             <select id="menu">
-                <option value="hamburguesa">Hamburguesa - $10</option>
-                <option value="pizza">Pizza - $12</option>
-                <option value="ensalada">Ensalada - $8</option>
+                <option value="hamburguesa">Hamburguesa - $7800</option>
+                <option value="pizza">Pizza - $10000</option>
+                <option value="ensalada">Ensalada - $6500</option>
+                <option value="sándwich">Sándwich - $6200</option>
+                <option value="panchos">Panchos - $5900</option>
+                <option value="lomito">Lomito - $8700</option>
             </select><br><br>
             
-            <label for="drink">¿Deseas agregar una bebida?</label>
+            <label for="drink">¿Deseas agregar una bebida por $2500?</label>
             <input type="checkbox" id="drink"><br><br>
             
             <button type="button" onclick="addOrder()">Agregar al Pedido</button><br><br>
@@ -33,7 +36,7 @@
             <h2>Pedido:</h2>
             <ul id="orderList"></ul><br><br>
             
-            <button type="submit">Enviar Pedido</button>
+            <button type="button" onclick="submitOrder()">Enviar Pedido</button>
         </form>
     </main>
     <script src="main.js"></script>

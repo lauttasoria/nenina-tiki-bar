@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #20d9fa;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -19,7 +19,7 @@ main {
 form {
     max-width: 500px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #285e6b;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -43,8 +43,8 @@ select {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #607dfc;
+    color: #000000;
     border: none;
     border-radius: 4px;
     cursor: pointer;
